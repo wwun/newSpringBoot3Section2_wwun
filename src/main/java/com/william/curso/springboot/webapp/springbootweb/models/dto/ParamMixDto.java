@@ -1,6 +1,6 @@
 package com.william.curso.springboot.webapp.springbootweb.models.dto;
 
-public class ParamDtoMix {
+public class ParamMixDto {
 
     private String message;
     private Integer code;
