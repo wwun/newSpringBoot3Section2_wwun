@@ -82,6 +82,7 @@ public class PathVariableController {
         json.put("code", code);
         json.put("message", message);
         json.put("message2", environment.getProperty("config.message"));
+        json.put("code2", environment.getProperty("config.code", Long.class)); // convierte el string a un tipo núm
         json.put("listOfValue", listOfValues);
         json.put("valueList", valueList);
         json.put("valueMap", valuesMap);
